@@ -40,5 +40,9 @@ class CameraTransformation : Transformation
     }
 }
 
-// 概念
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+/* 
+概念
+投影中心
+投影平面
+
+*/
