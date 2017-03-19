@@ -74,11 +74,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Hello.cs" />
-    <Compile Include="Assets\PositionTransformation.cs" />
-    <Compile Include="Assets\RotationTransformation.cs" />
-    <Compile Include="Assets\ScaleTransformation.cs" />
-    <Compile Include="Assets\Transformation.cs" />
+    <Compile Include="Assets\Script\CameraTransformation.cs" />
+    <Compile Include="Assets\Script\Hello.cs" />
+    <Compile Include="Assets\Script\PositionTransformation.cs" />
+    <Compile Include="Assets\Script\RotationTransformation.cs" />
+    <Compile Include="Assets\Script\ScaleTransformation.cs" />
+    <Compile Include="Assets\Script\Transformation.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

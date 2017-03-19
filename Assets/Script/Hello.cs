@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 
 // Transformation
+// http://gad.qq.com/program/translateview/7181958
+
 public class Hello : MonoBehaviour
 {
 
@@ -13,7 +15,7 @@ public class Hello : MonoBehaviour
 
     List<Transformation> transformations;
 
-    Matrix4x4 transformation;
+    Matrix4x4 transformation = Matrix4x4.identity;
 
     void Awake()
     {
@@ -66,7 +68,7 @@ public class Hello : MonoBehaviour
 
     void UpdateTransformation()
     {
-        GetComponents<Transformation>(transformations);
+        GetComponents(transformations);
         if (transformations.Count > 0)
         {
             transformation = transformations[0].Matrix;
